@@ -13,4 +13,5 @@ public class BandResourceDTO {
     private String biography;
     private Long numPlays;
     private List<String> albums;
+    private Object albumList;
 }

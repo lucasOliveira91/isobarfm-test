@@ -18,7 +18,6 @@ public class IsobarfmApplication {
 		SpringApplication.run(IsobarfmApplication.class, args);
 	}
 
-
 	@Bean
 	public BandClient getBandFeign() {
 		return  Feign.builder()
